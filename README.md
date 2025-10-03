@@ -341,18 +341,4 @@ If Veronica helped you find vulnerabilities or improve your security posture, pl
 </div>
 ```
 
-## 🚀 **How to Use:**
 
-1. **Copy the entire markdown above** (select all)
-2. **Go to your GitHub repository**: https://github.com/RatnadeepBose/veronica
-3. **Click on README.md**
-4. **Click the pencil icon (Edit)**
-5. **Select all → Delete → Paste this content**
-6. **Scroll down → Click "Commit changes"**
-
-That's it! Your Veronica repository will now have the **ultimate professional README** with:
-- ✅ Your ASCII art banner
-- ✅ Live GitHub badges
-- ✅ Complete documentation
-- ✅ Professional formatting
-- ✅ Everything in one command! 🎉

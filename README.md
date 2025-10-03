@@ -339,6 +339,6 @@ If Veronica helped you find vulnerabilities or improve your security posture, pl
 **Built with ❤️ for the security community**
 
 </div>
-```
+
 
 

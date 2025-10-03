@@ -38,14 +38,14 @@
 
 ## 🚀 Quick Start
 
-\`\`\`bash
+```bash
 # Clone & Run in 30 seconds
 git clone https://github.com/RatnadeepBose/veronica.git
 cd veronica
 chmod +x veronica.sh install.sh
 ./install.sh
 ./veronica.sh example.com
-\`\`\`
+```
 
 ## ✨ Why Veronica?
 
@@ -72,50 +72,50 @@ chmod +x veronica.sh install.sh
 ## 🛠️ Installation
 
 ### ⚡ One-Command Install
-\`\`\`bash
+```bash
 curl -sSL https://raw.githubusercontent.com/RatnadeepBose/veronica/main/install.sh | bash
-\`\`\`
+```
 
 ### 🐋 Docker (Recommended)
-\`\`\`bash
+```bash
 # Pull and run
 docker pull ratnadeepbose/veronica:latest
 docker run -it -v $(pwd)/reports:/app/outputs veronica example.com
-\`\`\`
+```
 
 ### 🔧 Manual Installation
-\`\`\`bash
+```bash
 git clone https://github.com/RatnadeepBose/veronica.git
 cd veronica
 chmod +x *.sh src/**/*.sh
 ./install.sh
-\`\`\`
+```
 
 ## 🎯 Usage Examples
 
 ### Basic Scan
-\`\`\`bash
+```bash
 ./veronica.sh example.com
-\`\`\`
+```
 
 ### Advanced Enterprise Scan
-\`\`\`bash
+```bash
 ./veronica.sh -d example.com -o ./security_scan/ -i high -t 100 --full-scan
-\`\`\`
+```
 
 ### Bug Bounty Mode
-\`\`\`bash
+```bash
 ./veronica.sh -f targets.txt -i insane --stealth --save-session
-\`\`\`
+```
 
 ### Continuous Monitoring
-\`\`\`bash
+```bash
 ./veronica.sh -d example.com --monitor --webhook https://hooks.slack.com/security
-\`\`\`
+```
 
 ## 📋 Full Options
 
-\`\`\`bash
+```bash
 Usage: ./veronica.sh [OPTIONS] <domain>
 
 OPTIONS:
@@ -138,16 +138,16 @@ EXAMPLES:
   ./veronica.sh -d example.com -i high -t 100  # High-intensity scan
   ./veronica.sh -f domains.txt --stealth       # Stealth scan multiple domains
   ./veronica.sh -d example.com -m recon,vuln   # Only recon and vulnerability
-\`\`\`
+```
 
 ## 📊 Sample Report
 
-\`\`\`
+```
 🔥 VERONICA SCAN REPORT
 ══════════════════════
 
 🎯 TARGET: example.com
-📅 SCAN DATE: $(date)
+📅 SCAN DATE: 2024-01-15 14:30:00
 ⏱️ DURATION: 6m 45s
 ⚡ INTENSITY: High
 
@@ -172,11 +172,11 @@ EXAMPLES:
 1. IMMEDIATE: Patch SQL injection and RCE vulnerabilities
 2. URGENT: Implement proper access controls
 3. IMPORTANT: Secure exposed directories and buckets
-\`\`\`
+```
 
 ## 🏗️ Architecture
 
-\`\`\`
+```
 Veronica Scanner Architecture
 ────────────────────────────
 
@@ -213,7 +213,7 @@ Veronica Scanner Architecture
   ├── JSON/XML Output
   ├── Real-time Alerts
   └── Integration Webhooks
-\`\`\`
+```
 
 ## 🤝 Contributing
 
@@ -221,18 +221,18 @@ We **love** contributions! Whether you're fixing bugs or adding new features:
 
 ### Quick Start for Contributors
 1. **Fork** the repository
-2. **Create** feature branch: \`git checkout -b feature/AmazingFeature\`
-3. **Commit** changes: \`git commit -m 'Add AmazingFeature'\`
-4. **Push** to branch: \`git push origin feature/AmazingFeature\`
+2. **Create** feature branch: `git checkout -b feature/AmazingFeature`
+3. **Commit** changes: `git commit -m 'Add AmazingFeature'`
+4. **Push** to branch: `git push origin feature/AmazingFeature`
 5. **Open** Pull Request
 
 ### Development Setup
-\`\`\`bash
+```bash
 git clone https://github.com/RatnadeepBose/veronica.git
 cd veronica
 ./install.sh  # Install dependencies
 ./veronica.sh testphp.vulnweb.com  # Test functionality
-\`\`\`
+```
 
 ## 📈 Performance
 
@@ -339,13 +339,20 @@ If Veronica helped you find vulnerabilities or improve your security posture, pl
 **Built with ❤️ for the security community**
 
 </div>
-"@ | Out-File -FilePath "README.md" -Encoding UTF8
+```
 
-Write-Host "🎉 PERFECT README with your ASCII art created!" -ForegroundColor Green
-Write-Host "📁 File: C:\Users\boser\veronica\README.md" -ForegroundColor Yellow
-Write-Host "`n🚀 FINAL STEP: Update your GitHub repository" -ForegroundColor Cyan
-Write-Host "   1. Go to: https://github.com/RatnadeepBose/veronica" -ForegroundColor White
-Write-Host "   2. Click README.md → Edit (pencil icon)" -ForegroundColor White
-Write-Host "   3. Select ALL → Delete → Paste this new content" -ForegroundColor White
-Write-Host "   4. Scroll down → Click 'Commit changes'" -ForegroundColor White
-Write-Host "`n💥 Your Veronica will have the BEST README on GitHub!" -ForegroundColor Magenta
+## 🚀 **How to Use:**
+
+1. **Copy the entire markdown above** (select all)
+2. **Go to your GitHub repository**: https://github.com/RatnadeepBose/veronica
+3. **Click on README.md**
+4. **Click the pencil icon (Edit)**
+5. **Select all → Delete → Paste this content**
+6. **Scroll down → Click "Commit changes"**
+
+That's it! Your Veronica repository will now have the **ultimate professional README** with:
+- ✅ Your ASCII art banner
+- ✅ Live GitHub badges
+- ✅ Complete documentation
+- ✅ Professional formatting
+- ✅ Everything in one command! 🎉

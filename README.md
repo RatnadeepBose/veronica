@@ -1,5 +1,4 @@
-# Create the FINAL ULTIMATE README.md with your ASCII art
-@"
+
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.0.0-purple?style=for-the-badge&logo=github">
   <img src="https://img.shields.io/badge/Kali-Linux-blue?style=for-the-badge&logo=kalilinux">

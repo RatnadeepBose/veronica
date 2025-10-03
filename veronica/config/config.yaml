@@ -1,0 +1,5 @@
+﻿scanning:
+  intensity: "medium"
+  threads: 50
+reporting:
+  format: ["html", "markdown"]

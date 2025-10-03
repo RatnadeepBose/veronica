@@ -1,0 +1,5 @@
+﻿www
+api
+mail
+ftp
+admin
